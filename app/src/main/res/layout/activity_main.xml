@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/m_plus_1p_bold"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        tools:text="echelon." />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="252dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="404dp"
+        android:background="#00df16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:contextClickable="false"
+        android:elegantTextHeight="false"
+        android:fontFamily="@font/MPLUS1-Bold.ttf"
+        android:freezesText="false"
+        android:gravity="center_horizontal"
+        android:textColor="#EADFDF"
+        android:textSize="60sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="357dp"
+        tools:text="Log in" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
