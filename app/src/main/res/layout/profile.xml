@@ -11,25 +11,42 @@
         android:layout_height="match_parent"
         android:padding="16dp">
 
-        <Button
-            android:id="@+id/button_first"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/next"
-            app:layout_constraintBottom_toTopOf="@id/textview_first"
+        <TextView
+            android:layout_width="323dp"
+            android:layout_height="81dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/m_plus_rounded_1c_bold"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textSize="48sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Profile" />
 
         <TextView
-            android:id="@+id/textview_first"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="@string/lorem_ipsum"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/button_first" />
+            android:layout_width="1133dp"
+            android:layout_height="228dp"
+            android:fontFamily="@font/m_plus_rounded_1c_bold"
+            android:textStyle="bold"
+            android:textSize="128sp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            tools:text="Welcome Back, "/>
+
+        <TextView
+            android:layout_width="980dp"
+            android:layout_height="347dp"
+            android:fontFamily="@font/m_plus_rounded_1c_bold"
+            android:textStyle="bold"
+            android:textSize="128sp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            tools:text="John Doe."/>
+
+
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
