@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="403dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="36dp"
+        android:autoText="false"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/m_plus_rounded_1c_bold"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="echelon." />
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="252dp"
+        android:layout_height="96dp"
+        android:background="#00df16"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.591" />
+
+    <TextView
+        android:layout_width="188dp"
+        android:layout_height="49dp"
+        android:autoText="false"
+        android:contextClickable="false"
+        android:elegantTextHeight="false"
+        android:fontFamily="@font/m_plus_rounded_1c_bold"
+        android:freezesText="false"
+        android:gravity="center_horizontal"
+        android:textColor="#EADFDF"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        tools:text="Log in" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="252dp"
+        android:layout_height="96dp"
+        android:background="#00df16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="366dp"></View>
+
+    <TextView
+        android:layout_width="159dp"
+        android:layout_height="58dp"
+        android:contextClickable="false"
+        android:elegantTextHeight="false"
+        android:fontFamily="@font/m_plus_rounded_1c_bold"
+        android:freezesText="false"
+        android:gravity="center_horizontal"
+        android:textColor="#EADFDF"
+        android:textSize="34sp"
+        android:textStyle="normal"
+
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        tools:text="Sign up" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
